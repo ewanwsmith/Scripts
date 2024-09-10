@@ -2,6 +2,12 @@
 
 using Pkg
 
+# Activate the environment located in the current directory (the folder the script is in)
+Pkg.activate(@__DIR__)
+
+# Optionally, instantiate the environment to install all required packages
+Pkg.instantiate()
+
 # Install required packages if they are not already installed
 function install_packages()
     packages = ["ArgParse", "CSV", "DataFrames", "FilePathsBase"]

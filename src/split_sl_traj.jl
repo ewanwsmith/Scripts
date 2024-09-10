@@ -1,5 +1,11 @@
 using Pkg
 
+# Activate the environment located in the current directory (the folder the script is in)
+Pkg.activate(@__DIR__)
+
+# Optionally, instantiate the environment to install all required packages
+Pkg.instantiate()
+
 # Add necessary packages
 Pkg.add("DataFrames")
 Pkg.add("BioSequences")
