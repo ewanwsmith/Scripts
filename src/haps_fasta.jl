@@ -1,5 +1,13 @@
 #!/usr/bin/env julia
 
+using Pkg
+
+# Activate the environment located in the current directory (the folder the script is in)
+Pkg.activate(@__DIR__)
+
+# Optionally, instantiate the environment to install all required packages
+Pkg.instantiate()
+
 using DataFrames, CSV, FASTX
 using ArgParse
 
