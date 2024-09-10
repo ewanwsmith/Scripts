@@ -1,0 +1,9 @@
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+BioSequences = "7e6ae17a-c86d-528c-b3b9-7f778a29fe59"
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+FASTX = "c2308a5c-f048-11e8-3e8a-31650f418d12"
+FilePathsBase = "48062228-2e41-5def-b9a4-89aafe57970f"
+RCall = "6f49c342-dc21-5d91-9882-a32aef131414"
