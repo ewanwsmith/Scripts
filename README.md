@@ -20,6 +20,18 @@ cuts fasta sequences to between a start and end point.
 - -z (y/n) whether to adjust for zero indexing -  defaults to n
 
 
+**extract_bic.sh**
+pulls BICs from VeTrans output and creates a simple ggplot
+
+This script takes one input:
+- a path to the folder containing the VeTrans output
+
+Usage
+```
+./extract_bic/sh <path>
+```
+
+
 ***Julia scripts:***
 
 **haps_to_csv.jl**
