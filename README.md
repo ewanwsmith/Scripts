@@ -31,6 +31,17 @@ Usage
 ./extract_bic/sh <path>
 ```
 
+**find_largest_file.sh**
+finds the largest file in a folder. Useful for checking files before uploading to Github
+
+This script takes one input:
+- a path to the folder to check
+
+Usage
+```
+.find_largest_file.sh <path>
+```
+
 
 ***Julia scripts:***
 
