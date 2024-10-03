@@ -42,6 +42,20 @@ Usage
 .find_largest_file.sh <path>
 ```
 
+**bwa.sh**
+performs filter and mem steps of bwa in a single step 
+
+This script takes two inputs:
+- -r a path to the reference genome to be indexed 
+- -s a path to the single-read file to be aligned
+OR
+- -p two paths to the paired-end files to be aligned
+
+**Usage**
+```
+$0 -r <reference.fasta> -s <read.fq.gz> | -p <read1.fq> <read2.fq>
+```
+
 
 ***Julia scripts:***
 
